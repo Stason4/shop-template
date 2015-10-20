@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(211, 211, 211, 0.53);
+    height: 200px;
+}
+
+.header-title {
+    font-size: 38px;
+    margin-bottom: 16px;
+    margin-top: 46px;
+    font-family: Arial;
+    font-weight: 100;
+}
+
+.shop-name, .search, .cart {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.blue-text {
+    color: #006cff;
+}
+
+.header-subtitle {
+    font-size: 16px;
+}
+
+.shop-name {
+    margin-left: 144px;
+}
+
+.search-wrapper {
+    width: 600px;
+    height: 64px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgba(211, 211, 211, 0.53);
+}
+
+.search-input {
+    padding: 40px;
+    width: 700px;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: -5px;
+    font-size: 16px;
+    
+}
+
+.search-button {
+    border-left: 2px solid rgba(211, 211, 211, 0.53);
+    position: absolute;
+    height: 64px;
+    width: 72px;
+    right: 0;
+}
+.search-icon {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    position: absolute;
+}
+
+.cart-button{
+    width: 520px;
+    height: 64px;
+    font-size: 16px;
+    background: white;
+    border: 2px solid rgba(211, 211, 211, 0.53);
+    position: relative;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.cart-button-arrow{
+    position: absolute;
+    right: 22px;
+}
