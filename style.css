@@ -80,3 +80,73 @@ body {
     position: absolute;
     right: 22px;
 }
+
+.menu{
+    background-color: #2f3c3c; 
+    height: 114px;
+    width: auto;
+}
+
+.home, .catalogue, .shopping-cart, .checkout, .pages{
+    display: inline-block;
+}
+
+.home {
+    margin-left: 174px;
+}
+
+.home-input {
+    background-color: #2f3c3c;
+    height: 114px;
+    width: 142px;
+    border: 1px solid #2f3c3c;
+    color: white; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.catalog-input {
+    background-color: #2f3c3c;
+    height: 114px;
+    width: 226px;
+    border: 1px solid #2f3c3c;
+    color: white; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.shopping-cart-input {
+    height: 114px;
+    width: 264px;
+    background-color: #2f3c3c;
+    border: 1px solid #2f3c3c;
+    color: white; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.checkout-input {
+    height: 114px;
+    width: 192px;
+    background-color: #2f3c3c;
+    border: 1px solid #2f3c3c;
+    color: white; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pages-input {
+    height: 114px;
+    width: 168px;
+    background-color: #2f3c3c;
+    border: 1px solid #2f3c3c;
+    color: white; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.fa-caret-down {
+    color: white;
+    position: relative;
+    right: 38px;   
+}
