@@ -145,8 +145,13 @@ body {
     cursor: pointer;
 }
 
-.fa-caret-down {
+.second{
     color: white;
     position: relative;
     right: 38px;   
+}
+
+.colored:hover {
+    background: #00ceff;
+    
 }
